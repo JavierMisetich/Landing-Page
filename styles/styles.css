@@ -13,19 +13,24 @@ header{
 }
 body{
 
-    background-color: #c9c9c9;
-    ;
+    background-color:#0a0a0a;
 }
 main{
     width: 1200px;
     height: 550px;
     border-radius: 20px;
-    background-color: rgb(153, 190, 181);
+    background: linear-gradient( 90deg, #bdb2b2,rgb(153,190,181) );
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     margin-left: 20rem;
 }
+
+header{ 
+    background: linear-gradient(#bdb2b2,rgb(153, 190, 181));
+    margin-bottom: 1rem;
+}
+
 #Titulo{
     height: 5rem;
     margin-left: 35rem;
@@ -86,14 +91,17 @@ nav ul li a {
 }
 #trabajosImg{
     height: 15rem;
-    padding: 2rem;
-    
+    padding: 5px 5px;
+    border-width: 15px;
+    border-color: #0a0a0a;
+    border-style: solid;
+    margin-right: 15px;
 }
 #textoPresentacion{
     width: 1200px;
     height: 550px;
     border-radius: 20px;
-    background-color: rgb(153, 190, 181);
+    background:linear-gradient( 45deg, #bdb2b2, rgb(153,190,181) );
     display: flex;
     flex-direction: column;
     margin-left: 20rem;
@@ -112,7 +120,7 @@ nav ul li a {
 footer{
     width: 1200px;
     height: 250px;
-    background-color: rgb(153, 190, 181);
+    background: linear-gradient(to top,#bdb2b2, rgb(153, 190, 181));
     margin-top: 1rem;
     margin-left: 20rem;
     margin-bottom: 1rem;
