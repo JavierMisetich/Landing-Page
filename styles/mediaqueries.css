@@ -1,0 +1,46 @@
+/* tablet *//* tablet */
+
+@media(max-width: 992px){
+    
+    #logo{
+        position: relative;
+        height: 8rem;
+
+    }
+    #Titulo{
+        display: none;
+    }
+    
+    #nav,ul,li,a{
+        display: flex;
+    }
+    main{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    #hero{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-content: center;
+    }
+    
+    /* Footer */
+
+    #contact{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    #miJa{
+        width: 35rem;
+
+    }
+    #gaAr{
+        width: 35rem;
+    }
+    #img-footer {
+        display: none;
+    }
+}
